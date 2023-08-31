@@ -1,30 +1,38 @@
 ---
 layout: article
-titles:
-  # @start locale config
-  en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-  fr      : &FR       À propos
-  fr-BE   : *FR
-  fr-CA   : *FR
-  fr-CH   : *FR
-  fr-FR   : *FR
-  fr-LU   : *FR
-  # @end locale config
+sidebar: 
+  nav: layouts
+# titles:
+#   # 设置本篇文章的标题
+#   en      : &EN       Left Side Bar
+#   zh-Hans : &ZH_HANS  左侧边栏
 key: page-about
+lang: zh-Hans
 ---
+
+在 `html` 框架自带标题下直接写的内容
+
+# MD里的一级标题
+
+一级标题下的内容简介
+
+## MD里二级标题
+
+  二级标题下带缩进的内容
+
+与不缩进内容好像没什么区别
+
+{% highlight ss %}
+bundle install
+bundle exec jekyll s
+{% endhighlight %}
+
+带行号的代码块？
+
+```python
+def foo():
+  return 42
+```
 
 ![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
 
