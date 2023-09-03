@@ -2,8 +2,8 @@
 layout: article
 sidebar: 
   nav: side_bar_1
-aside:
-  toc: true
+# aside:
+#   toc: true
 # titles:
 #   # 设置本篇文章的标题
 #   en      : &EN       Left Side Bar
