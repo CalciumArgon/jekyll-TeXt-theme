@@ -1,21 +1,21 @@
 header:
-  - titles:
-      en      : &EN       Archive
-      zh-Hans : &ZH_HANS  归档
+  - title: 归档中文
+      # en      : &EN       Archive
+      # zh-Hans : &ZH_HANS  归档
     url: /archive.html
 
   - titles:
       en      : &EN       About
       zh-Hans : &ZH_HANS  关于
+    url: /about.html
+
+side_bar_1:
+  - titles: First
     url: /
 
-docs-en:
-  - titles: First
-    chirdren:
-      - title: Chap 1
-      - title: Chap 2
-
   - titles: Second
-    chirdren:
+    children:
       - title: Chap 3
+        url: ./archive.html
       - title: Chap 4
+        url: ./about.html
