@@ -21,10 +21,13 @@
       {%- endfor -%}
       </ul>
     {%- endif -%}
+    <!-- 左侧边栏的卡片设置 -->
+    {%- if page.sidebar.showPicture -%}
     <div class="card">
       <div class="card__image">
         <img class="border" src="ai_meeting_square.png"/>
       </div>
     </div>
+    {%- endif -%}
   </div>
 {%- endif -%}

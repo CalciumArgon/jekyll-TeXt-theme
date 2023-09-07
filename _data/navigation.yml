@@ -1,13 +1,13 @@
 header:
-  - title: 归档中文
-      # en      : &EN       Archive
-      # zh-Hans : &ZH_HANS  归档
+  - title: 主页
+    url: https://calciumargon.github.io/
+  
+  - title: 所有文章
     url: /archive.html
 
-  - titles:
-      en      : &EN       About
-      zh-Hans : &ZH_HANS  关于
+  - title: 关于
     url: /about.html
+
 
 side_bar_1:
   - titles: First
